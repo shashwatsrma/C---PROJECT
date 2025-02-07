@@ -1,0 +1,52 @@
+Features of the Program:
+1. User Authentication:
+Users can Sign Up by providing their details (name, age, phone number, email, username, and password).
+A file (user.txt) is used to store user information.
+Users can Log In using their username and password.
+
+
+2. Menu System:
+The restaurant offers three categories:
+Appetizers
+Main Course
+Desserts
+Users can browse the menu and select items.
+Each menu item has a price and quantity.
+
+
+3. Order Processing:
+Users can add multiple items to their order.
+Selected items are stored in an array and written to a file (order.txt).
+The program calculates the total bill.
+
+
+4. Payment System:
+Users can choose from three payment methods:
+Cash
+Credit Card
+E-Sewa (requires transaction ID input)
+Payment details are recorded.
+
+5. File Handling:
+user.txt: Stores user information.
+order.txt: Logs the selected items and payment details.
+
+6. Error Handling:
+Ensures passwords match during signup.
+Prevents invalid menu choices.
+Ensures valid numerical input for age.
+Class Structure:
+User Class: Handles user registration and login.
+appetizers, maincourse, and dessert Classes: Contain menu items and their prices.
+pay Class: Manages payment methods.
+menu Class: Controls the main order-taking process.
+Program Flow:
+User chooses to log in or sign up.
+After logging in, the main menu appears.
+Users select menu items and confirm their order.
+A bill is generated and users proceed with payment.
+The transaction is recorded and the program thanks the user.
+
+
+
+This program efficiently simulates a restaurant management system, making it useful for small food businesses looking for a simple digital order-taking solution.
